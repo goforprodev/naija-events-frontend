@@ -1,5 +1,6 @@
 .error {
-  text-align: center;
+  display: grid;
+  place-items: center;
   margin: 100px 0 200px;
 }
 
