@@ -1,7 +1,8 @@
 import Link from "next/Link";
+import Layout from "../../components/Layout";
 
 export default function Event(){
   return(
-    <div>Single event</div>
+    <Layout>Single event</Layout>
   )
 } 

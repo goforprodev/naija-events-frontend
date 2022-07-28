@@ -1,13 +1,12 @@
-import Link from 'next/Link'
+import Link from "next/Link";
+import Layout from "../components/Layout";
 
 export default function AboutPage() {
   return (
-    <div>
+    <Layout title={"About Afro events"}>
       <h1>About</h1>
       <Link href={"/"}>Home</Link>
-      <p>
-        some thjinfsd
-      </p>
-    </div>
-  )
+      <p>some thjinfsd</p>
+    </Layout>
+  );
 }
