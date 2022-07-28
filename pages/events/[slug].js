@@ -1,7 +1,7 @@
-import React from 'react'
+import Link from "next/Link";
 
-export default function Event() {
-  return (
-    <div>Single Event</div>
+export default function Event(){
+  return(
+    <div>Single event</div>
   )
-}
+} 
